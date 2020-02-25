@@ -1,5 +1,3 @@
-import sys
-
 f1 = open("doc1.txt", 'r')
 f2 = open("doc2.txt", 'r')
 
