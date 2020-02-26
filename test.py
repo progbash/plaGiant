@@ -1,3 +1,4 @@
+import os
 f1 = open("doc1.txt", 'r')
 f2 = open("doc2.txt", 'r')
 
@@ -21,7 +22,7 @@ for i in range(len(f2_words) - 4):
             for words1 in iterate():
                 if(words1 == words2):
                     print(words1)
-                    print("Detected !")
+                    print("Detected in", os.path.basename(f2.name))
                 else:
                     pass
         else:
