@@ -1,2 +1,3 @@
-universitetində sözü yüklənən faylda 1 dəfə, yoxlanan faylda isə 1 dəfədir.
-mən sözü yüklənən faylda 1 dəfə, yoxlanan faylda isə 1 dəfədir.
+['universitetində', 'magistr', 'təhsili', 'alıram.', 'mən'] hissəsi doc2.txt sənədində tapıldı.
+['mən', 'bakı', 'şəhərində', 'anadan', 'olmuşam.'] hissəsi doc2.txt sənədində tapıldı.
+Plagiat faizi: 0.09523809523809523 %
