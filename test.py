@@ -36,7 +36,6 @@ for i in range(len(f2_words) - 4):
 for words1 in iterate():
     fives_count+=1
 
-print(fives_count)
 percentage = count/fives_count
-result.write('Plagiat faizi: {} %'.format(percentage))
+result.write('Plagiat faizi: {} %'.format(round(percentage, 2)*100))
     
