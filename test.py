@@ -2,7 +2,8 @@ import os
 f1 = open("doc1.txt", 'r')
 f2 = open("doc2.txt", 'r')
 result = open("outfile.txt", 'w')
-count = 0
+count, fives_count = 0, 0
+
 
 f1_words = f1.read().lower().split()
 f2_words = f2.read().lower().split()
@@ -32,6 +33,10 @@ for i in range(len(f2_words) - 4):
         else:
             pass
 
-percentage = count/len(f1_words)
+for words1 in iterate():
+    fives_count+=1
+
+print(fives_count)
+percentage = count/fives_count
 result.write('Plagiat faizi: {} %'.format(percentage))
     
