@@ -2,7 +2,7 @@ import os
 f1 = open("doc1.txt", 'r')
 f2 = open("doc2.txt", 'r')
 result = open("outfile.txt", 'w')
-count, fives_count = 0, 0
+found_count, fives_count = 0, 0
 
 
 f1_words = f1.read().lower().split()
@@ -26,7 +26,7 @@ for i in range(len(f2_words) - 4):
                 if(words1 == words2):
                     # print(words1)
                     # print("Detected in", os.path.basename(f2.name))
-                    count+=1
+                    found_count+=1
                     result.write('{} hissəsi {} sənədində tapıldı.\n'.format(words1, os.path.basename(f2.name)))
                 else:
                     pass
@@ -35,7 +35,10 @@ for i in range(len(f2_words) - 4):
 
 for words1 in iterate():
     fives_count+=1
+    
+print(found_count)
+print(fives_count)
 
-percentage = count/fives_count
-result.write('Plagiat faizi: {} %'.format(round(percentage, 2)*100))
+percentage = found_count/fives_count
+result.write('Plagiat faizi: {}%'.format(round(percentage, 2)*100))
     

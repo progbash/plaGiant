@@ -1,4 +1,4 @@
 ['salam.', 'mənim', 'adım', 'kamrandır.', 'mən'] hissəsi doc2.txt sənədində tapıldı.
 ['universitetində', 'magistr', 'təhsili', 'alıram.', 'mən'] hissəsi doc2.txt sənədində tapıldı.
 ['mən', 'bakı', 'şəhərində', 'anadan', 'olmuşam.'] hissəsi doc2.txt sənədində tapıldı.
-Plagiat faizi: 18.0 %
+Plagiat faizi: 18.0%
