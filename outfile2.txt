@@ -4,4 +4,6 @@
 ['alıram.', 'mən', 'bakı', 'şəhərində', 'anadan'] hissəsi doc1.txt sənədində tapıldı.
 ['mən', 'bakı', 'şəhərində', 'anadan', 'olmuşam.'] hissəsi doc1.txt sənədində tapıldı.
 ['bakı', 'şəhərində', 'anadan', 'olmuşam.', 'mən'] hissəsi doc1.txt sənədində tapıldı.
-Plagiat faizi: 35.0%
+['universitetində', 'magistr', 'təhsili', 'alıram.', 'mən'] hissəsi doc2.txt sənədində tapıldı.
+['mən', 'bakı', 'şəhərində', 'anadan', 'olmuşam.'] hissəsi doc2.txt sənədində tapıldı.
+Plagiat faizi: 47.0%

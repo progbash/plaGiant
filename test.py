@@ -1,9 +1,8 @@
 import os
-f1 = open("doc1.txt", 'r')
-f2 = open("doc2.txt", 'r')
+f1 = open("original.txt", 'r')
+f2 = open("doc1.txt", 'r')
 result = open("outfile.txt", 'w')
 found_count, fives_count = 0, 0
-
 
 f1_words = f1.read().lower().split()
 f2_words = f2.read().lower().split()
